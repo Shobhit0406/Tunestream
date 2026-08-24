@@ -1,0 +1,16 @@
+{
+    "title": "angry",
+    "description": "Calm your Anger",
+    "songs": [
+        {
+            "file": "songs/angry/song1.mp3",
+            "name": "8 Asle",
+            "artist": "Sukha"
+        },
+        {
+            "file": "songs/angry/song2.mp3",
+            "name": "Trap para",
+            "artist": "Rafar"
+        }
+    ]
+}

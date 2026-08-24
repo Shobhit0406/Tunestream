@@ -1,0 +1,16 @@
+{
+    "title": "Chill",
+    "description": "Calm your Anger",
+    "songs": [
+        {
+            "file": "songs/Chill/Bandana.mp3",
+            "name": "Badana",
+            "artist": "Shubh"
+        },
+        {
+            "file": "songs/Chill/Soni Soni.mp3",
+            "name": "Soni Soni",
+            "artist": "Darshan Raval"
+        }
+    ]
+}

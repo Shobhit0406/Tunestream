@@ -1,0 +1,230 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="icon" href="{% static 'img/favicon.svg' %}" type="image/svg+xml">
+  <link rel="alternate icon" href="{% static 'img/favicon.png' %}" type="image/png" sizes="32x32">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>TuneStream — Your Music, Your Way</title>
+</head>
+
+<body>
+  <!-- Animated background elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Header (minimal, clean) -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo-section">
+        <img src="{% static 'img/favicon.svg' %}" alt="TuneStream" class="logo">
+        <span class="brand-name">TuneStream</span>
+      </div>
+      
+      <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search songs, artists..." class="search-input">
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <div id="auth-area">
+        <a href="#" id="signup-link" class="auth-link">Sign up</a>
+        <button class="auth-btn" id="login-btn">Log in</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Auth Modal -->
+  <div class="modal-overlay" id="auth-modal-overlay">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+
+      <!-- Login Form -->
+      <div class="auth-panel" id="login-panel">
+        <img src="{% static 'img/favicon.svg' %}" alt="TuneStream" class="modal-logo">
+        <h2>Welcome back</h2>
+        <form id="login-form">
+          <input type="email" id="login-email" placeholder="Email" required>
+          <input type="password" id="login-password" placeholder="Password" required>
+          <div class="form-error" id="login-error"></div>
+          <button type="submit" class="modal-btn">Log In</button>
+        </form>
+        <p class="auth-switch">New to TuneStream? <span id="switch-to-signup">Create account</span></p>
+      </div>
+
+      <!-- Signup Form -->
+      <div class="auth-panel hidden" id="signup-panel">
+        <img src="{% static 'img/favicon.svg' %}" alt="TuneStream" class="modal-logo">
+        <h2>Join TuneStream</h2>
+        <form id="signup-form">
+          <input type="text" id="signup-name" placeholder="Your name" required>
+          <input type="email" id="signup-email" placeholder="Email" required>
+          <input type="password" id="signup-password" placeholder="Create password" required minlength="6">
+          <div class="form-error" id="signup-error"></div>
+          <button type="submit" class="modal-btn">Sign Up</button>
+        </form>
+        <p class="auth-switch">Already a member? <span id="switch-to-login">Log in</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Section -->
+<div class="featured">
+    <div class="featured-content">
+        <h1>Discover Your Next Favorite Song</h1>
+        <p>Millions of songs, curated playlists, and personalized recommendations - all for free.</p>
+        <button class="hero-btn" id="get-started-btn">
+            <i class="fas fa-play-circle"></i> Get Started
+        </button>
+    </div>
+</div>
+
+  <!-- Main content -->
+  <div class="container">
+    <!-- Left sidebar (minimal) -->
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <div class="nav-section">
+          <h3>Library</h3>
+          <ul>
+            <li><a href="#"><i class="fas fa-heart"></i> Liked Songs</a></li>
+            <li><a href="#"><i class="fas fa-history"></i> Recently Played</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-section">
+          <h3>Now Playing</h3>
+          <div class="queue-container">
+            <div class="queue-list" id="songList">
+              <!-- Populated by script.js -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main content area -->
+    <main class="main-content">
+      <!-- Trending Section -->
+      <section class="music-section">
+        <div class="section-header">
+          <h2>Trending Now</h2>
+          <span class="view-all">See all</span>
+        </div>
+        <div class="music-grid" id="trending-container">
+          <!-- Populated by script.js with trending cards -->
+        </div>
+      </section>
+
+      <!-- For You Section -->
+      <section class="music-section">
+        <div class="section-header">
+          <h2>Popular Artists</h2>
+          <span class="view-all">See all</span>
+        </div>
+        <div class="artist-grid" id="artist-container">
+          <!-- Sample artists (static for now) -->
+          <div class="artist-card">
+            <img src="{% static 'img/honey.jpg' %}" alt="Honey Singh">
+            <h3>Honey Singh</h3>
+          </div>
+          <div class="artist-card">
+            <img src="{% static 'img/karan.jpeg' %}" alt="Karan Aujla">
+            <h3>Karan Aujla</h3>
+          </div>
+          <div class="artist-card">
+            <img src="{% static 'img/ap.jpeg' %}" alt="A.P Dhillon">
+            <h3>A.P Dhillon</h3>
+          </div>
+          <div class="artist-card">
+            <img src="{% static 'img/talwinder.jpeg' %}" alt="Talwinder">
+            <h3>Talwinder</h3>
+          </div>
+          <div class="artist-card">
+            <img src="{% static 'img/pritam.jpeg' %}" alt="Pritam">
+            <h3>Pritam</h3>
+          </div>
+          <div class="artist-card">
+            <img src="{% static 'img/atif.jpeg' %}" alt="Atif Aslam">
+            <h3>Atif Aslam</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 TuneStream. Made with <i class="fas fa-heart"></i> for music lovers.</p>
+          <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Modern Playbar (bottom fixed) -->
+  <div class="playbar">
+    <div class="playbar-left">
+      <div class="mini-equalizer" id="mini-eq">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="playbar-track-info">
+        <div class="track-title" id="playbar-title">No song playing</div>
+        <div class="track-artist" id="playbar-artist">Select a track</div>
+      </div>
+    </div>
+
+    <div class="playbar-center">
+      <div class="playbar-controls">
+        <button class="control-btn" id="prev-btn-playbar"><i class="fas fa-step-backward"></i></button>
+        <button class="control-btn play-btn" id="play-pause-playbar">
+          <i class="fas fa-play" id="play-icon-playbar"></i>
+        </button>
+        <button class="control-btn" id="next-btn-playbar"><i class="fas fa-step-forward"></i></button>
+      </div>
+
+      <div class="progress-container">
+        <span class="time-label" id="current-time-playbar">0:00</span>
+        <div class="progress-track" id="progress-track-playbar">
+          <div class="progress-fill" id="progress-fill-playbar"></div>
+          <div class="progress-handle" id="progress-handle-playbar"></div>
+        </div>
+        <span class="time-label" id="duration-playbar">0:00</span>
+      </div>
+    </div>
+
+    <div class="playbar-right">
+      <button class="control-btn" id="volume-toggle-playbar"><i class="fas fa-volume-up"></i></button>
+      <div class="volume-slider-container">
+        <input type="range" id="volume-slider-playbar" min="0" max="100" value="70" class="volume-slider">
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden audio element -->
+  <audio id="audio"></audio>
+
+  <!-- Scripts -->
+  <script src="{% static 'js/theme.js' %}"></script>
+  <script src="{% static 'js/auth.js' %}"></script>
+  <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>

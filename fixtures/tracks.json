@@ -1,0 +1,302 @@
+[
+  {
+    "model": "player.track",
+    "pk": 1,
+    "fields": {
+      "title": "For A Reason",
+      "artist_names": "Karan Aujla, Ikky",
+      "audio_file": "songs/Chill/For a reason.mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e023dc5639cb321a69b721bed92",
+      "slug": "for-a-reason"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 2,
+    "fields": {
+      "title": "STFU",
+      "artist_names": "A.P Dhillon",
+      "audio_file": "songs/angry/STFU.mp3",
+      "audio_url": null,
+      "cover_image": "https://pendujatt.com.se/uploads/album/okay-stfu-ap-dhillon.webp",
+      "slug": "STFU"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 3,
+    "fields": {
+      "title": "Cry for you",
+      "artist_names": "Weeknd",
+      "audio_file": "songs/angry/Cry for you.mp3",
+      "audio_url": null,
+      "cover_image": "https://images.genius.com/f5594f2dcb4a11aa1b2f6747b4487570.1000x1000x1.png",
+      "slug": "Cry-for-you"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 4,
+    "fields": {
+      "title": "Pal Pal",
+      "artist_names": "Afusic, Talwinder",
+      "audio_file": "songs/Chill/pal pal.mp3",
+      "audio_url": null,
+      "cover_image": "https://djpunjab.app/download/image/lIwDAoUXxOKVE0--90x7PAa121aa121a/Pal%20Pal%20with%20Talwindar.jpg",
+      "slug": "Pal-pal"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 9,
+    "fields": {
+      "title": "Kabhi Kabhi Aditi",
+      "artist_names": "Rashid Ali",
+      "audio_file": "songs/Chill/Kabhi Kabhi Aditi.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 10,
+    "fields": {
+      "title": "8 Asle",
+      "artist_names": "Sukha",
+      "audio_file": "songs/angry/song1.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 11,
+    "fields": {
+      "title": "Trap Para",
+      "artist_names": "Raftaar",
+      "audio_file": "songs/angry/song2.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 12,
+    "fields": {
+      "title": "Soni Soni",
+      "artist_names": "Darshan Raval",
+      "audio_file": "songs/Chill/Soni Soni.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 13,
+    "fields": {
+      "title": "Ishq Jalakar",
+      "artist_names": "Irshad Kamil, Sahir Ludhianvi, Shashwat Sachdev",
+      "audio_file": "songs/Cards/Ishq jalakar.mp3",
+      "audio_url": null,
+      "cover_image": "https://pendujatt.com.se/uploads/album/ishq-jalakar-karvaan-from-dhurandhar-shashwat-sachdev.webp",
+      "slug": "Ishq-jalakar"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 14,
+    "fields": {
+      "title": "Dhurandar Title Track",
+      "artist_names": "Hanumankind, Jasmine Sandals",
+      "audio_file": "songs/Cards/Dhurandartitle.mp3",
+      "audio_url": null,
+      "cover_image": "https://images.filmibeat.com/img/popcorn/movie_posters/dhurandhar-20251120102622-23795.jpg",
+      "slug": "dhurandar"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 15,
+    "fields": {
+      "title": "Arz Kiya Hai",
+      "artist_names": "Anuv Jain",
+      "audio_file": "songs/Cards/Arz Kiya Hai [128 Kbps]-(SongsPk.com.se).mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e0225fa2d19b2363a9520a34409",
+      "slug": "arz-kiya-hai"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 16,
+    "fields": {
+      "title": "Bijuria (From \"Sunny Sanskari Ki Tulsi Kumari\")",
+      "artist_names": "Sonu Nigam, Tanishk Bagchi, Asees Kaur",
+      "audio_file": "songs/Cards/Bijuriya.mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e02f603333e0fab9745b8a53f69",
+      "slug": "bijuria"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 17,
+    "fields": {
+      "title": "Seriya",
+      "artist_names": "ARJN, KDS, RONN",
+      "audio_file": "songs/Cards/SHERIYA.mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e02dc54baf911bfff7715c66481",
+      "slug": "seriya"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 18,
+    "fields": {
+      "title": "Ranjhan (From \"Do Patti\")",
+      "artist_names": "Sachet-Parampara, Parampara Thakur, Kausar Munir",
+      "audio_file": "songs/Cards/Raanjhan Do Patti 320 Kbps.mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef",
+      "slug": "ranjhan"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 19,
+    "fields": {
+      "title": "Tu Pehli Tu Akhiri",
+      "artist_names": "Shashwat Sachdev, Arijit Singh, Kumar",
+      "audio_file": "songs/Cards/Tu Pehli Tu Aakhri(KoshalWorld.Com).mp3",
+      "audio_url": null,
+      "cover_image": "https://i.scdn.co/image/ab67616d00001e0283181ce0b5790f1eb24b7d7e",
+      "slug": "tu-pehli-tu-akhiri"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 20,
+    "fields": {
+      "title": "Tu Meri Mai Tera (Title Track)",
+      "artist_names": "Vishal & Shekhar",
+      "audio_file": "songs/Cards/Tu Meri Main Tera Main Tera Tu Meri - Title Track (PenduJatt.Com.Se).mp3",
+      "audio_url": null,
+      "cover_image": "https://pendujatt.com.se/uploads/album/tu-meri-main-tera-main-tera-tu-meri-title.webp",
+      "slug": "Tumeri-maitera"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 21,
+    "fields": {
+      "title": "Andaz-E-Karam",
+      "artist_names": "Madhur Sharma, Moin",
+      "audio_file": "songs/Cards/Andaaz_e_Karam.mp3",
+      "audio_url": null,
+      "cover_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiHMG-OJX_jhEuHrf5vpCyYvwOordzDB2HUQ&s",
+      "slug": "Andaz-e-karam"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 22,
+    "fields": {
+      "title": "Galla-4",
+      "artist_names": "Talwinder",
+      "audio_file": "songs/Cards/Gallan 4.mp3",
+      "audio_url": null,
+      "cover_image": "https://lq.djjohal.com/covers/733636/Gallan%204.jpg",
+      "slug": "Galla-4"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 23,
+    "fields": {
+      "title": "Run Down The City",
+      "artist_names": "Reble, Shashwat Sachdev",
+      "audio_file": "songs/Cards/Run Down The City.mp3",
+      "audio_url": null,
+      "cover_image": "https://pendujatt.com.se/uploads/album/dhurandhar-shashwat-sachdev.webp",
+      "slug": "Run-down"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 24,
+    "fields": {
+      "title": "EZ-EZ",
+      "artist_names": "Hanumankind, Raj Ranjodh, Shashwat Sachdev, Diljit Dosanjh",
+      "audio_file": "songs/Cards/EZ-EZ.mp3",
+      "audio_url": null,
+      "cover_image": "https://pendujatt.com.se/uploads/album/dhurandhar-shashwat-sachdev.webp",
+      "slug": "ez-ez"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 25,
+    "fields": {
+      "title": "Ban Ja Tu",
+      "artist_names": "Charan Preet, Badshah",
+      "audio_file": "songs/Chill/Ban Ja Tu Charan Preet 320 Kbps.mp3",
+      "audio_url": null,
+      "cover_image": "staticfiles/img/Ban-Ja-Tu-Hindi.jpg",
+      "slug": "ban-ja"
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 5,
+    "fields": {
+      "title": "Ilahi",
+      "artist_names": "Arijit Singh",
+      "audio_file": "songs/Chill/Ilahi.mp3",
+      "audio_url": null,
+      "cover_image":null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 6,
+    "fields": {
+      "title": "Sahiba",
+      "artist_names": "Aaditya Nikhari",
+      "audio_file": "songs/angry/Sahiba.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 7,
+    "fields": {
+      "title": "The Child in us",
+      "artist_names": "Enigma",
+      "audio_file": "songs/Chill/the child in us.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  },
+  {
+    "model": "player.track",
+    "pk": 8,
+    "fields": {
+      "title": "Bandana",
+      "artist_names": "Shubh",
+      "audio_file": "songs/Chill/Bandana.mp3",
+      "audio_url": null,
+      "cover_image": null,
+      "slug": null
+    }
+  }
+]

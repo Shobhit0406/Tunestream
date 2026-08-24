@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Dark blue background -->
+  <rect width="64" height="64" rx="12" fill="#0d1b2a"/>
+  
+  <!-- Equalizer bars -->
+  <rect x="12" y="20" width="4" height="24" fill="#1a5fb4">
+    <animate attributeName="height" values="24;8;24" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="20" y="16" width="4" height="32" fill="#3584e4">
+    <animate attributeName="height" values="32;12;32" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="28" y="24" width="4" height="20" fill="#4a9ec9">
+    <animate attributeName="height" values="20;28;20" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="36" y="18" width="4" height="28" fill="#63c5da">
+    <animate attributeName="height" values="28;16;28" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="44" y="22" width="4" height="22" fill="#7ac9f9">
+    <animate attributeName="height" values="22;30;22" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Glowing TS overlay -->
+  <text x="32" y="52" text-anchor="middle" 
+        font-family="'Segoe UI', sans-serif" 
+        font-size="24" font-weight="800" 
+        fill="white" opacity="0.9">
+    <tspan fill="#7ac9f9">T</tspan>S
+  </text>
+</svg>
